@@ -18,3 +18,19 @@ last_name = "lovelace"
 full_name = f"{first_name} {last_name}"
 message = f"Hello, {full_name.title()}!"
 print(message)
+name = "predrag acimovic"
+print(name.title())
+print(name.upper())
+print(name.lower())
+first_name = "predrag"
+last_name = "acimovic"
+full_name = f"{first_name} {last_name}"
+print(f"Hello, {full_name.title()}!")
+message = f"Hello, {full_name.title()}!"
+print(message)
+#adding whitespace to strings with tabs or newlines
+print("Python")
+print("\tPython")
+print("Languages:\nPython\nC\nJavaScript")
+print("Names:\n\tPredrag\nJelena\n\tMarko\nMarija")
+print("Languages:\n\tPython\n\tC\n\tJavaScript")
